@@ -350,8 +350,8 @@
             <p>最近在看<code>《算法导论》</code>，再次学习了二叉查找树，今天在自己的博客中好好总结一下，以便于以后温故而知新。</p>
 <p>二叉搜索树(又名二叉排序树, 二叉索引树)，也是一棵二叉树，符合二叉树的所有性质，同时有自己特有的性质。</p>
 <ol>
-<li>一个树的左子树总是比其自身小</li>
-<li>一个树的右子树总是比其自身大</li>
+<li>一棵树的左子树总是比其自身小</li>
+<li>一棵树的右子树总是比其自身大</li>
 <li>其左子树和右子树也是一棵二叉搜索树</li>
 <li>所有结点都不相等</li>
 </ol>
@@ -365,8 +365,10 @@
 <li>插入</li>
 <li>删除</li>
 </ul>
+<blockquote>
 <p>结点</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">Node</span></span></div><div class="line"><span class="class">&#123;</span></div><div class="line">    EleType data;</div><div class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">left</span>;</span></div><div class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">right</span>;</span></div><div class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">parent</span>;</span></div><div class="line">&#125; Node, *BSTree;</div></pre></td></tr></table></figure>
+</blockquote>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">typedef</span> <span class="keyword">int</span> EleType;</div><div class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">Node</span></span></div><div class="line"><span class="class">&#123;</span></div><div class="line">    EleType data;</div><div class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">left</span>;</span></div><div class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">right</span>;</span></div><div class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">parent</span>;</span></div><div class="line">&#125; Node, *BSTree;</div></pre></td></tr></table></figure>
 
           
         
