@@ -102,7 +102,7 @@
 <meta property="og:site_name" content="痴心小蛇的代码屋">
 <meta property="og:description" content="最近在看《算法导论》，再次学习了二叉查找树，今天在自己的博客中好好总结一下，以便于以后温故而知新。 二叉搜索树(又名二叉排序树, 二叉索引树)，也是一棵二叉树，符合二叉树的所有性质，同时有自己特有的性质。  一个树的左子树总是比其自身小 一个树的右子树总是比其自身大 其左子树和右子树也是一棵二叉搜素树 所有结点都不相等  用途： 基本的操作有：  初始化结点 遍历 求最大最小值 后继和前驱 插入">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-08-17T02:44:15.000Z">
+<meta property="og:updated_time" content="2017-08-17T02:48:42.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="二叉查找树">
 <meta name="twitter:description" content="最近在看《算法导论》，再次学习了二叉查找树，今天在自己的博客中好好总结一下，以便于以后温故而知新。 二叉搜索树(又名二叉排序树, 二叉索引树)，也是一棵二叉树，符合二叉树的所有性质，同时有自己特有的性质。  一个树的左子树总是比其自身小 一个树的右子树总是比其自身大 其左子树和右子树也是一棵二叉搜素树 所有结点都不相等  用途： 基本的操作有：  初始化结点 遍历 求最大最小值 后继和前驱 插入">
@@ -343,7 +343,7 @@
 <li>删除</li>
 </ul>
 <p>结点</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">typedef struct Node</div><div class="line">&#123;</div><div class="line">    EleType data;</div><div class="line">    struct Node *left;</div><div class="line">    struct Node *right;</div><div class="line">    struct Node *parent;</div><div class="line">&#125; Node, *BSTree;</div></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">Node</span></span></div><div class="line"><span class="class">&#123;</span></div><div class="line">    EleType data;</div><div class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">left</span>;</span></div><div class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">right</span>;</span></div><div class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">parent</span>;</span></div><div class="line">&#125; Node, *BSTree;</div></pre></td></tr></table></figure>
 
       
     </div>
